@@ -47,10 +47,11 @@ void left(byte speed, byte speed2);
 void right(byte speed, byte speed2);
 void stop();
 void toggle();
-void bluecontrol();
+void BlueControl();
+void SonarControl();
 
 #include "C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\arduino.h"
 #include "C:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\eightanaloginputs\pins_arduino.h" 
 #include "G:\Misdocs\Arduino\robot\robot.ino"
-#include "G:\Misdocs\Arduino\robot\utils.ino"
+#include "G:\Misdocs\Arduino\robot\funciones.ino"
 #endif
